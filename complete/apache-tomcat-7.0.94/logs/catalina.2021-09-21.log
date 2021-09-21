@@ -167,3 +167,77 @@ Sep 21, 2021 7:47:43 AM org.apache.coyote.AbstractProtocol stop
 INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
 Sep 21, 2021 7:47:43 AM org.apache.coyote.AbstractProtocol destroy
 INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Sep 21, 2021 7:55:39 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.94
+Sep 21, 2021 7:55:39 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Apr 10 2019 16:56:40 UTC
+Sep 21, 2021 7:55:39 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.94.0
+Sep 21, 2021 7:55:39 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Sep 21, 2021 7:55:39 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            3.10.0-1062.12.1.el7.x86_64
+Sep 21, 2021 7:55:39 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Sep 21, 2021 7:55:39 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.302.b08-0.el7_9.x86_64/jre
+Sep 21, 2021 7:55:39 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_302-b08
+Sep 21, 2021 7:55:39 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Red Hat, Inc.
+Sep 21, 2021 7:55:39 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/centos/springboot/complete/apache-tomcat-7.0.94
+Sep 21, 2021 7:55:39 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/centos/springboot/complete/apache-tomcat-7.0.94
+Sep 21, 2021 7:55:39 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/centos/springboot/complete/apache-tomcat-7.0.94/conf/logging.properties
+Sep 21, 2021 7:55:39 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Sep 21, 2021 7:55:39 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Sep 21, 2021 7:55:39 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Sep 21, 2021 7:55:39 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/centos/springboot/complete/apache-tomcat-7.0.94
+Sep 21, 2021 7:55:39 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/centos/springboot/complete/apache-tomcat-7.0.94
+Sep 21, 2021 7:55:39 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/centos/springboot/complete/apache-tomcat-7.0.94/temp
+Sep 21, 2021 7:55:39 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Sep 21, 2021 7:55:39 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8088"]
+Sep 21, 2021 7:55:39 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Sep 21, 2021 7:55:39 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1210 ms
+Sep 21, 2021 7:55:39 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Sep 21, 2021 7:55:39 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.94
+Sep 21, 2021 7:55:39 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/centos/springboot/complete/apache-tomcat-7.0.94/webapps/ROOT
+Sep 21, 2021 7:55:40 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/centos/springboot/complete/apache-tomcat-7.0.94/webapps/ROOT has finished in 586 ms
+Sep 21, 2021 7:55:40 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/centos/springboot/complete/apache-tomcat-7.0.94/webapps/docs
+Sep 21, 2021 7:55:40 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/centos/springboot/complete/apache-tomcat-7.0.94/webapps/docs has finished in 91 ms
+Sep 21, 2021 7:55:40 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/centos/springboot/complete/apache-tomcat-7.0.94/webapps/examples
+Sep 21, 2021 7:55:40 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/centos/springboot/complete/apache-tomcat-7.0.94/webapps/examples has finished in 453 ms
+Sep 21, 2021 7:55:40 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/centos/springboot/complete/apache-tomcat-7.0.94/webapps/host-manager
+Sep 21, 2021 7:55:41 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/centos/springboot/complete/apache-tomcat-7.0.94/webapps/host-manager has finished in 110 ms
+Sep 21, 2021 7:55:41 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/centos/springboot/complete/apache-tomcat-7.0.94/webapps/manager
+Sep 21, 2021 7:55:41 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/centos/springboot/complete/apache-tomcat-7.0.94/webapps/manager has finished in 94 ms
+Sep 21, 2021 7:55:41 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8088"]
+Sep 21, 2021 7:55:41 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Sep 21, 2021 7:55:41 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1594 ms

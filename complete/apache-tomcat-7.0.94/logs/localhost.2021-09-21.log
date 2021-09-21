@@ -10,3 +10,11 @@ Sep 21, 2021 7:47:43 AM org.apache.catalina.core.ApplicationContext log
 INFO: SessionListener: contextDestroyed()
 Sep 21, 2021 7:47:43 AM org.apache.catalina.core.ApplicationContext log
 INFO: ContextListener: contextDestroyed()
+Sep 21, 2021 7:55:40 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+Sep 21, 2021 7:55:40 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+Sep 21, 2021 7:55:40 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('StockTicker', 'async.Stockticker@a97ec01')
+Sep 21, 2021 7:55:40 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@81a0b99')
