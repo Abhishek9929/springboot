@@ -5,6 +5,7 @@ pipeline {
         stage('Vaidation') {
             steps {
                 echo 'Validate Project..'
+		            cd complete
 		            sh './mvnw validate'
 		            sh './mvnw compile'
             }
