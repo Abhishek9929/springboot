@@ -5,6 +5,7 @@ pipeline {
         stage('Vaidation') {
             steps {
                 echo 'Validate Project..'
+		            sh 'cd complete'
 		            sh 'mvn validate'
 		            sh 'mvn compile'
             }
