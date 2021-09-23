@@ -6,8 +6,8 @@ pipeline {
             steps {
                 echo 'Validate Project..'
 		            sh 'cd complete'
-		            sh './mvnw validate'
-		            sh './mvnw compile'
+		            sh 'mvn validate'
+		            sh 'mvn compile'
             }
         }
         stage('UnitTest') {
